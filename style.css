@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+    background: linear-gradient(rgba(123, 34, 211, 0.5), 
+       rgba(6, 80, 171, 0.3)), url(./Background-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 12px 5px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0px 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: #fff;
+    border-radius: 8px;
+    border: 2px solid black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #333;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+h3 {
+    color: #333;
+    font-size: 25px;
+    /* text-decoration: underline; */
+}
+
+.project {
+    margin-bottom: 10px;
+}
+
+ul {
+    padding: 0;
+}
+
+ul li {
+    list-style-type: decimal;
+    font-weight: 600;
+    padding: 10px;
+    margin: 10px 5px; 
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    color:blue;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+footer {
+    text-align: center;
+    padding: 5px;
+    color: #fff;
+    background-color: #333;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer:hover {
+    color: red;
+    font-weight: bold;
+}
